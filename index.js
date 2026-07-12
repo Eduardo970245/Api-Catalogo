@@ -6,7 +6,7 @@ const soloAdmin = require('./middleware/soloAdmin');
 
 const app = express();
 app.use(express.json());
-app.use(cors());
+//app.use(cors());
 
 /*
 CREATE TABLE autores (
